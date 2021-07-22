@@ -9,3 +9,9 @@ body{
     background-color: #8d8d8d;
 }
 /* banner part css end */
+
+/* navigation part css start */
+.navbar-container{
+    background-color: #282b37;
+}
+/* navigation part css end */
