@@ -25,6 +25,7 @@ body{
 /* education part css start */
 .education-container{
     background-color: #EEEEEE;
+    padding: 10px 0px;
 }
 .edu-con h2{
     color: #fb857f;
@@ -39,3 +40,15 @@ body{
     align-items: center;
 }
 /* education part css end */
+
+/* project part css start */
+.project-container{
+    background-color: #2bb3dd;
+}
+.project-con p{
+    color: white;
+}
+.project-img img{
+    height: 173px;
+}
+/* project part css end */
