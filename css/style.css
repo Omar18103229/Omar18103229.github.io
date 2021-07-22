@@ -26,4 +26,16 @@ body{
 .education-container{
     background-color: #EEEEEE;
 }
+.edu-con h2{
+    color: #fb857f;
+}
+.circle{
+    background-color: #fb857f;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 /* education part css end */
