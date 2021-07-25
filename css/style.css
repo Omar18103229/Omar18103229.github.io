@@ -13,6 +13,9 @@ body{
 /* navigation part css start */
 .navbar-container{
     background-color: #282b37;
+    position: sticky;
+    top: 0;
+    z-index: 2;
 }
 /* navigation part css end */
 
@@ -53,6 +56,20 @@ body{
 }
 /* project part css end */
 
-/* portfolio part css start */
-
-/* portfolio part css end */
+/* contact form part css start */
+.form-container{
+    background-color: #474d5d;
+}
+span{
+    font-size: 72px;
+}
+.inner-form{
+    background-color: #585f73;
+}
+.button-color{
+    background-color: #fb857f;
+    color: white;
+    padding: 15px;
+    font-size: 25px;
+}
+/* contact form part css end */
