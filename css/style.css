@@ -1,75 +1,94 @@
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+  font-family: "Open Sans", sans-serif;
 }
 /* banner part css start */
-.banner-container{
-    background-color: #cacaca;
+.banner-container {
+  background-color: #cacaca;
 }
-.banner-colum{
-    background-color: #8d8d8d;
+.banner-colum {
+  background-color: #8d8d8d;
 }
 /* banner part css end */
 
 /* navigation part css start */
-.navbar-container{
-    background-color: #282b37;
-    position: sticky;
-    top: 0;
-    z-index: 2;
+.navbar-container {
+  background-color: #282b37;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 /* navigation part css end */
 
 /* About part css start */
-.about-container{
-    background-color: #00bdbd;
+.about-container {
+  background-color: #00bdbd;
 }
 /* About part css end */
 
 /* education part css start */
-.education-container{
-    background-color: #EEEEEE;
-    padding: 10px 0px;
+.education-container {
+  background-color: #eeeeee;
+  padding: 10px 0px;
 }
-.edu-con h2{
-    color: #fb857f;
+.edu-con h2 {
+  color: #fb857f;
 }
-.circle{
-    background-color: #fb857f;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.circle {
+  background-color: #fb857f;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /* education part css end */
 
 /* project part css start */
-.project-container{
-    background-color: #2bb3dd;
+.project-container {
+  background-color: #2bb3dd;
 }
-.project-con p{
-    color: white;
+.project-con p {
+  color: white;
 }
-.project-img img{
-    height: 173px;
+.project-img img {
+  height: 173px;
 }
 /* project part css end */
 
 /* contact form part css start */
-.form-container{
-    background-color: #474d5d;
+.form-container {
+  background-color: #474d5d;
 }
-span{
-    font-size: 72px;
+span {
+  font-size: 72px;
 }
-.inner-form{
-    background-color: #585f73;
+.inner-form {
+  background-color: #585f73;
 }
-.button-color{
-    background-color: #fb857f;
-    color: white;
-    padding: 15px;
-    font-size: 25px;
+.button-color {
+  background-color: #fb857f;
+  color: white;
+  padding: 15px;
+  font-size: 25px;
 }
 /* contact form part css end */
+
+/* footer part css start */
+.footer {
+  background-color: #2bb3dd;
+}
+.circle-footer{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: white;
+  font-size: 40px;
+  text-align: center;
+  color: #2bb3dd;
+}
+.circle-footer:hover {
+  background-color: #474d5d;
+}
+/* footer part css end */
